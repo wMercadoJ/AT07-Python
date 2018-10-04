@@ -8,18 +8,25 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+*.bin
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+.idea/
+/.idea/
+*.iml
 lib/
 lib64/
 parts/
+*.pyc
 sdist/
+/out/
 var/
 wheels/
+*.xml
 *.egg-info/
 .installed.cfg
 *.egg
