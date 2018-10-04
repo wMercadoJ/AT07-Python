@@ -17,7 +17,7 @@ def perform_operation(operator, num1, num2):
             return "Oops!  That was no valid number.  Try again..."
 
     else:
-        return "no fount the operator ........."
+        return "no fount the operator ........"
 
 
 operators = ["*", "+", "-", "/", "g"]

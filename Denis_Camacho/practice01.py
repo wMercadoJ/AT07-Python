@@ -1,5 +1,5 @@
 number_fist_500_data = 500
-number_second_300_data = 3
+number_second_300_data = 4
 # Addition
 addition_number_500_300_result = number_fist_500_data + number_second_300_data
 print ("The addition result is:", addition_number_500_300_result)
@@ -21,4 +21,3 @@ print ("The exponent result is:", exponent_500_300_result)
 # Floor Division
 floor_division_500_300_result = number_fist_500_data // number_second_300_data
 print ("The Floor Division result is:", floor_division_500_300_result)
-
