@@ -1,8 +1,9 @@
-
 import math
 
-number_to_operators_first_111 = 10
-number_to_operators_second_222 = -2
+num1 = input("insert number first:")
+num2 = input("insert number second:")
+number_to_operators_first_111 = num1
+number_to_operators_second_222 = num2
 
 # Addition
 print("Addition numbers:\n")
