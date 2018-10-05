@@ -15,7 +15,7 @@ class Main:
         print("Results practice 02")
         print("--------------------------------")
         artithmetic = Aritmetics()
-        artithmetic.aritmetic_functions("-", 6, 5)
+        print(artithmetic.aritmetic_functions("*", 6, 5))
 
 
 main = Main()
