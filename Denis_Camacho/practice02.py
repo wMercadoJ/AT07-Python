@@ -1,6 +1,6 @@
 select_operator = str(input("inset the operator"))
-n1 = input("num1")
-n2 = input("num2")
+number1 = input("num1")
+number2 = input("num2")
 
 
 def perform_operation(operator, num1, num2):
@@ -24,5 +24,5 @@ operators = ["*", "+", "-", "/", "g"]
 for i in operators:
     print (perform_operation(i, 5, 10))
 
-print (select_operator, n1, n2)
-print (perform_operation(select_operator, n1, n2))
+print (select_operator, number1, number2)
+print (perform_operation(select_operator, number1, number2))

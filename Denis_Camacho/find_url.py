@@ -1,9 +1,4 @@
-def find_url(url):
-    http = "http://"
-    urls = url.split(" ")
-    for var in urls:
-        if var.__contains__(http):
-            return var
+url = "My url is : http://www.google.com test".split(" ")
+find_word = list(filter(lambda http: http.__contains__("http://"), url))
 
-
-print find_url("My url is : http://www.google.com test")
+print find_word

@@ -1,15 +1,15 @@
-def funtion_1():
+def first_function():
     size_list = int(input("into the size the list"))
-    list=[]
+    elements_list = []
     for i in range(0, size_list):
-        data_intput = str(input("into the value"))
-        list.append(data_intput)
-    funtion_2(list)
+        data_input = str(input("into the value"))
+        elements_list.append(data_input)
+        second_function(elements_list)
 
 
-def funtion_2(list):
-    for var in list:
+def second_function(element_list):
+    for var in element_list:
         print var
 
 
-funtion_1()
+first_function()
