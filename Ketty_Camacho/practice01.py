@@ -3,42 +3,42 @@ print letter
 print type(letter)
 print "*******************"
 print "Plus"
-a = 8
-b = 1
-plus = (a + b)
+number_01 = 8
+number_02 = 1
+plus = (number_01 + number_02)
 print plus
 print "*******************"
 print "MINUS"
-c = 9
-e = 3
-result = c - e
-results = e - c
+number_01 = 9
+number_02 = 3
+result = number_01 - number_02
+results = number_02 - number_01
 print result
 print results
 print "*******************"
 print "divided by"
-d = 8
-f = 2
-resultDivided = d / f
-print resultDivided
+number_01 = 8
+number_02 = 2
+result_Divided = number_01 / number_02
+print result_Divided
 print "*******************"
 print "Multiply"
-a = 3
-b = 4
-resultMultiply = a * b
-print resultMultiply
+number_01 = 3
+number_02 = 4
+result_multiply = number_01 * number_02
+print result_multiply
 print "*******************"
 print "Modulus"
-a = 8
-b = 3
-resultModulus = a % 2
-print resultModulus
+number_01 = 8
+number_02 = 3
+result_Modulus = number_01 % 2
+print result_Modulus
 print "*******************"
 print "exponet"
-a = 2
-b = 3
-resultExpo = a ** b
-print resultExpo
+number_01 = 2
+number_02 = 3
+result_expo = number_01 ** number_02
+print result_expo
 
 
 

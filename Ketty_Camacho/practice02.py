@@ -1,19 +1,19 @@
-def perform_operation(a, b, c):
-    b = int(b)
-    c = int(c)
-    if (a == '-'):
-        print b - c
-    if (a == '+'):
-        print c + b
-    if (a == '*'):
-        print b * c
-    if (a == '**'):
-        print b ** c
-    elif (a == '/' and b > c):
-        print b / c
+def perform_operation(operators, number_01, number_02):
+    number_01 = int(number_01)
+    number_02 = int(number_02)
+    if (operators == '-'):
+        print number_01 - number_02
+    if (operators == '+'):
+        print number_02 + number_01
+    if (operators == '*'):
+        print number_01 * number_02
+    if (operators == '**'):
+        print number_01 ** number_02
+    elif (operators == '/' and number_01 > number_02):
+        print number_01 / number_02
     else:
-        print c / b
+        print number_02 / number_01
 
 
 
-perform_operation('/', '8', '1')
+perform_operation('/', '8', '2')
