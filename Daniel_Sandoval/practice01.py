@@ -1,4 +1,4 @@
-#Arithmetic Operator
+# Arithmetic Operator
 print("------ suma: ------")
 addition = 4 + 5
 print(addition)
@@ -6,7 +6,7 @@ addition_decimales = 1.21 + 8.1214
 print(addition_decimales)
 addition_integer_mayor = 1472 + 8475
 print(addition_integer_mayor)
-addition_negative = 548  + (-4787)
+addition_negative = 548 + (-4787)
 print (addition_negative)
 
 print("------ Multiplication: ------")
@@ -43,8 +43,8 @@ print(modulus_decimal)
 modulus_minor_mayor = 24 % 55
 print (modulus_minor_mayor)
 
-#Assign values to variables with long names and combining letters with numbers
-first_practice_in_languaje_python_example1 = (str(47)+" prube first exercise")
+# Assign values to variables with long names and combining letters with numbers
+first_practice_in_languaje_python_example1 = (str(47) + " prube first exercise")
 print (first_practice_in_languaje_python_example1)
 first_practice_in_languaje_python_example2 = " prube first exercise 5487145"
 print (first_practice_in_languaje_python_example2)
