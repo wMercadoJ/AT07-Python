@@ -1,13 +1,11 @@
-def sum_to(number):
-    result_suma = 0
+def sum_total(number):
+    sum_result = 0
     for i in range(number + 1):
-
         if (i <= 35):
-
-            result_suma += i
+            sum_result += i
         else:
             break
-    print result_suma
+    print(sum_result)
 
 
-sum_to(40)
+sum_total(40)
