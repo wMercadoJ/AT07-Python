@@ -11,20 +11,21 @@ if __name__ == '__main__':
 # Exercise to validate if it is a cousin or not
 
 
-def is_prime(lst):
-    for i in lst:
+def is_prime(list_numbers):
+    for index_i in list_numbers:
         n = 0
-        for j in range(1, i + 1):
-            if i % j == 0:
+        for index_j in range(1, index_i + 1):
+            if index_i % index_j == 0:
                 n = n + 1
         if n == 2:
-            print "Number ", i, " is prim..."
+
+            print "Number ", index_i, " is prim..."
 
 
 if __name__ == '__main__':
     print "Enter number MIN Y MAX: "
-    minNum = int(raw_input())
-    maxNum = int(raw_input())
-    lst = range(minNum, maxNum + 1)
-    print lst
-    is_prime(lst)
+    number_min = int(raw_input())
+    number_max = int(raw_input())
+    number_list = range(number_min, number_max + 1)
+    print number_list
+    is_prime(number_list)

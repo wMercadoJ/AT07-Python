@@ -1,27 +1,27 @@
 
-def doProcess(a, b, c):
-    if c == "+":
+def doProcess(number_one, number_two, operator):
+    if operator == "+":
         print "SUMA: "
-        print a + b
+        print number_one + number_two
 
-    if c == "-":
+    if operator == "-":
         print "RESTA: "
-        print a - b
+        print number_one - number_two
 
-    if c == "*":
+    if operator == "*":
         print "MULTIPLICACION: "
-        print a * b
+        print number_one * number_two
 
-    if c == "/":
+    if operator == "/":
         print "DIVISION: "
-        print a / b
+        print number_one / number_two
 
 
 if __name__ == "__main__":
     print ("First number")
-    a = float(raw_input())
+    number_one = float(raw_input())
     print ("Second number")
-    b = float(raw_input())
+    number_two = float(raw_input())
     print ("Operator")
-    c = str(raw_input())
-    doProcess(a, b, c)
+    operator = str(raw_input())
+    doProcess(number_one, number_two, operator)

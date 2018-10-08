@@ -4,8 +4,8 @@
 
 def create_array(num):
     array_aux = []
-    for i in range(num):
-        print ("Enter ", i + 1, "Element")
+    for index in range(num):
+        print ("Enter ", index + 1, "Element")
         value = str(raw_input())
         array_aux.append(value)
     return array_aux

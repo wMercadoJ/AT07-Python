@@ -22,17 +22,17 @@ if __name__ == '__main__':
 # lower than 35.
 
 
-def sum_to_n(number):
-    maxim = 35
+def sum_to_n(entry_number):
+    number_maxim = 35
     res = 0.0
-    if number < 35.0:
-        maxim = int(number)
-    for i in range(1, maxim + 1):
+    if entry_number < 35.0:
+        number_maxim = int(entry_number)
+    for i in range(1, number_maxim + 1):
         res = res + float(i)
     print "Result: ", res
 
 
 if __name__ == '__main__':
     print "INGRESS Number:"
-    a = int(raw_input())
-    sum_to_n(a)
+    input_number = int(raw_input())
+    sum_to_n(input_number)

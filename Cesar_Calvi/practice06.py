@@ -3,14 +3,14 @@
 # line. Write a fragment of code to extract and print the full url if it is present.
 
 
-def show_present_url(chain):
-    list = chain.split("\n")
+def show_present_url(chain_input):
+    list = chain_input.split("\n")
     print "list", list
-    for i in list:
-        all = i.split(" ")
-        for j in all:
-            if j.startswith("https://"):
-                print "url", j
+    for item in list:
+        all = item.split(" ")
+        for article in all:
+            if article.startswith("https://"):
+                print "url", article
 
 
 if __name__ == '__main__':
