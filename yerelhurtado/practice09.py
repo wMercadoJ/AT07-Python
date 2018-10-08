@@ -1,3 +1,4 @@
+
 def set_array():
     size = int(input("set size of array"))
     list_array = []
