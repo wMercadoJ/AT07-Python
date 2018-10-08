@@ -26,10 +26,10 @@ class SMS_store:
             return list_messages[1:]
 
     def delete_message(self, index):
-        self.arrival.pop(index)
+        return self.arrival.pop(index)
 
     def clear_all_sms(self):
-        self.arrival = []
+        return self.arrival.clear()
 
 
 ts = time.time()
