@@ -2,25 +2,25 @@
 # author Ana Mamani
 # since 10/04/2018
 
-a = 26
-b = 11.3
-c = 5
-d = 3.5
-e = 2
+number_a = 26
+number_b = 11.3
+number_c = 5
+number_d = 3.5
+number_e = 2
 # sum
-print a + b
+print (number_a + number_b)
 # subtraction
-print c - d
+print (number_c - number_d)
 # multiplication
-print d * c
+print (number_d * number_c)
 # division with decimal
-print float(c) / a
+print (float(number_c) / number_a)
 # division
-print c / a
+print (number_c / number_a)
 # exponent
-print e ** 2
+print (number_e ** 2)
 # module
-print 7 % 3
+print (7 % 3)
 
 
 
