@@ -8,12 +8,12 @@ class PerformOp:
         self.multi = 0
         self.div = 0.0
 
-    def operation(self, number_1, number_2):
+    def operation(self,number_1,number_2):
         self.sum = number_1 + number_2
-        print("suma es: ", self.sum)
+        print("the sum: ", self.sum)
         self.rest = number_1 - number_2
-        print("rest es: ", self.rest)
+        print("the substraction: ", self.rest)
         self.multi = number_1 * number_2
-        print("multiplicacion es: ", self.multi)
+        print("the mutiplication: ", self.multi)
         self.div = number_1 / number_2
-        print("division es: ", self.div)
+        print("the division ", self.div)
