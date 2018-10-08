@@ -8,8 +8,4 @@ def create_array():
     return array
 
 
-def print_array(array):
-    print(array)
-
-
-print_array(create_array())
+create_array(create_array())
