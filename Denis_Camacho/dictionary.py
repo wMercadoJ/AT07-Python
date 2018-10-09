@@ -1,10 +1,10 @@
-def words(word):
+def words(words):
     data = {}
-    for i in word:
-        data[i] = word.count(i)
+    for word in words:
+        data[word] = words.count(word)
     return data
 
 
 word = list("ThiS is String with Upper and lower case Letters".lower().replace(" ", ""))
 word.sort()
-print words(word)
+print(words(word))
