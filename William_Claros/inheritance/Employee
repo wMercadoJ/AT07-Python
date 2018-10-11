@@ -1,0 +1,19 @@
+# Employee will have :
+# Employee_Id and Department
+# And this must inherit all of the Person class.
+
+from William_Claros.inheritance.Person import Person
+
+class Employee(Person):
+    def __init__(self, first, last, age, ci, employee_id, department):
+        super().__init__(first, last, age, ci)
+        self.employee_id = employee_id
+        self.department = department
+
+    def get_employee(self):
+        return (self.get_name() + ", " + str(self.employee_id) + ", " + self.department)
+
+person = Person("William", "Claros", 18, 123456789)
+employee = Employee("Maria", "Ochoa", 45, 123456789, 123, "Enginering")
+print(person.get_name())
+print(employee.get_employee())
