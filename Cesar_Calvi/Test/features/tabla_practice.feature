@@ -1,6 +1,6 @@
 Feature: validation table
 
-  @practice
+  @practice @before_all @before_feature
   Scenario: Validation data of table
     Given these Users:
       | name            | date of birth   |
