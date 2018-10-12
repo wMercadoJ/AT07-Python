@@ -41,10 +41,15 @@ def step_impl(context, first_name, last_name, choose_email, create_pass, confirm
     context.gender = gender
     context.mobile_phone = mobile_phone
     context.current_email = current_email
-    pass
+    print(context.first_name, context.last_name)
+    print(context.choose_email, context.create_pass)
+    print(context.confirm_pass, context.month)
+    print(context.day, context.year)
+    print(context.gender, context.mobile_phone)
+    print(context.current_email)
 
 
-@then(u'should be display the new account')
+@then(u'should be created account with the information was create')
 def step_impl(context):
     expect(context.first_name).to_equal("Denis")
     expect(context.last_name).to_equal("Camacho")
